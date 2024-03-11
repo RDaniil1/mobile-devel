@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataFragment">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp" >
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/roboto_mono_thin"
+                    android:includeFontPadding="true"
+                    android:text="@string/hello_blank_fragment"
+                    android:textSize="20dp"
+                    android:theme="@style/Theme.Material3.DayNight"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:paddingLeft="13dp"/>
+        </LinearLayout>
+
+</FrameLayout>
