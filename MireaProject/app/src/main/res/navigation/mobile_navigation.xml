@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.WebViewFragment" />
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.DataFragment"/>
+
+    <fragment
+        android:id="@+id/nav_music"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.MusicServiceFragment"/>
+
+    <fragment
+        android:id="@+id/nav_barometer"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.BarometerFragment" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.CameraFragment"/>
+    <fragment
+        android:id="@+id/nav_audiorecord"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.AudiorecordFragment"/>
+
+    <fragment
+        android:id="@+id/nav_file_operation"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.FileOperationFragment"/>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.ProfileFragment"/>
+
+    <fragment
+        android:id="@+id/nav_restaurants"
+        android:name="ru.mirea.reshetnikovdd.mireaproject.RestaurantsFragment"/>
+</navigation>
